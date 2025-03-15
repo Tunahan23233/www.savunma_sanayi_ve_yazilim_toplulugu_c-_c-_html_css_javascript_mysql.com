@@ -420,20 +420,20 @@ Serial.println(deger);
         </div>
         <div id="rgb">
             <h3>RGB LED</h3>
-            <p>RGB led Arduino'da <b style="color:red">R</b>ed <b style="color:green">G</b>reen <b style="color:blue">B</b>lue'dan yani kırmızı mavi yeşilden oluşur.</p>
-            <img src="baglantisema/.rgb.png" alt="RGB" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
+            <p>RGB led Arduino'da <b style="color:red">R</b>ed <b style="color:green">G</b>reen <b style="color:blue">B</b>lue'dan yani kırmızı mavi yeşilden oluşur.Ortak anot veya katot olmasına dikkat ediniz</p>
+            <img src="https://maker.robotistan.com/wp-content/uploads/2021/03/arduino-rgb-led-ortak-anot-1024x630.png" alt="RGB" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
                 <li>1 tane breadboard</li>
-                <li>4 E-E Jumper kablo</li>
+                <li>5 E-E Jumper kablo</li>
                 <li>1 tane RGB led</li>
-                <li> 3 tane  220 Ω direnç</li>
+                <li> 3 tane  220 Ω direnç</li.
             </ul>
             <pre class="koddur">
-int r=3;
-int g=6;
-int b=5;
+int r=9;
+int g=10;
+int b=11;
 void setup()
 {
   pinMode(r,OUTPUT);
