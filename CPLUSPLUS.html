@@ -83,7 +83,7 @@ delay(1000); //1 saniye bekle
             <h3>Serial monitör</h3>
             <p>Serial monitör girilen veriyi ya da bir yazı yazar</p>
             <p>Not bu fotoğraf tinkercaddden alınmıştır</p>
-            <img src="baglantisema/serialmonitor.png" alt="Serialmonitör" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/serialmonitor.png" alt="Serialmonitör" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -115,7 +115,7 @@ void loop()
                 <li>1 tane 330 Ω veya 220 Ω direnç</li>
                 <li>Beş E-E jumper kablo</li>
             </ul>
-            <img src="baglantisema/ledbutton.png" alt="buttonled" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/ledbutton.png" alt="buttonled" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <pre class="koddur">
 int button=2; //button pini tanımlandı
 int led = 4; //led pini tanımlandı
@@ -142,7 +142,7 @@ digitalWrite(led,LOW)//led sön
             <p>
                 Analog okuma arduino dijital okuma gibi 0,1 değilde 0 ile 1023 arasındaki sayılardadır isterseniz bu sayılar map komutu ile ayarlanabilir.Burada potu A0'a bağladık
             </p>
-            <img src="baglantisema/analog.png" alt="analogdeger" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/analog.png" alt="analogdeger" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>
                 Malzemeler
             </p>
@@ -171,7 +171,7 @@ Serial.println(analogRead(pot));
         <div id="pwmled">
             <h3>PWM ile Led yakma</h3>
             <p>PWM digital bir pinin analog sinyal göndermesi olabilen pinleridrir Arduino Uno'da 3,,6,9,10,11 pinleri PWM'dir.Ledi pota bağlayıp gelen veriye göre led yakmak projemizdir.Burada A0 pini pot ,2. pin leddir.</p>
-            <img src="baglantisema/pwmled.png" alt="PWMLED" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/pwmled.png" alt="PWMLED" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>
                 Malzemeler
             </p>
@@ -202,7 +202,7 @@ analogWrite(led,deger); //analog değeri lede parlaklık ayarlarr
         <div id="karasimsek">
             <h3>Kara şimşek ve Fonksiyon oluşturma</h3>
             <p>Kara şimşek uygulaması birçok ledin art arda koyulmasıyla yapılır.Burada fonksiyon oluşturma kısmı kara şimşekte hangi ledlerin yanacağını belirtmekten geçer.Fonksiyonlar Arduino'da void fonksiyon_adi () { } bu şekilde yapılır.</p>
-            <img src="baglantisema/karasimsek.png" alt="karasimsek" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/karasimsek.png" alt="karasimsek" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -357,7 +357,7 @@ void sekiz()
         <div id="ldr">
             <h3>LDR(FOTOREZİSTÖR)</h3>
             <p>Arduinoda ışık oranını algılayan bir sensör vardır bu LDR'dir.Şimdi ilk projede ldr'den gelen veriyi ölçeceğiz.2. projede ise karanlık olursa led yanacak</p>
-            <img src="baglantisema/ldr.png" alt="ldr" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/ldr.png" alt="ldr" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -383,7 +383,7 @@ Serial.println(deger);
 }
 </pre>
             <p>İkinci porje</p>
-            <img src="baglantisema/ldrled.png" alt="ldrled" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/ldrled.png" alt="ldrled" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -421,7 +421,7 @@ Serial.println(deger);
         <div id="rgb">
             <h3>RGB LED</h3>
             <p>RGB led Arduino'da <b style="color:red">R</b>ed <b style="color:green">G</b>reen <b style="color:blue">B</b>lue'dan yani kırmızı mavi yeşilden oluşur.</p>
-            <img src="baglantisema/.rgb.png" alt="RGB" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/.rgb.png" alt="RGB" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -504,9 +504,9 @@ void white()
         <div id="dht11">
             <h3>SICAKLIK VE NEM SENSÖRÜ DHT11 VE KÜTÜPHANE ÇAĞIRMA</h3>
             <p>Sıcaklık ve nem ölçmek için Aduinoda farklı sensörler kullanılır biz burada DHT11'i kullanacağız.Pin 7. bağlı <a href="https://www.hbmacit.com/wp-content/uploads/2022/01/dht.zip">DHT.h kütüphanesini indirmek için tıklayın ya da şu  yolu deneyin</a></p>
-            <img src="baglantisema/Ekran görüntüsü 2024-10-19 095347.png" alt="kütüphane" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/Ekran görüntüsü 2024-10-19 095347.png" alt="kütüphane" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Buraya tıklayıp istediğiniz kütüphaneyi yazıp indirebilirsiniz ve  sol üstteki <b>Sketch'ten Include library'ye tıklayıp onu kullanabilir bağlantıda verdiğimiz gibi ADD zip library seçeneğine tıklayaabililrsiniz</b></p>
-            <img src="https://www.hbmacit.com/wp-content/uploads/2020/01/ArduDHT11-module-644x416.png" alt="dht11" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://www.hbmacit.com/wp-content/uploads/2020/01/ArduDHT11-module-644x416.png" alt="dht11" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
                 <li>3 tane E-D jumper kablo</li>
@@ -538,7 +538,7 @@ void loop() {
         <div id="metre">
             <h3>Ultrasonik mesafe sensörü HC-SR04</h3>
             <p>HC-SR04 yarasaların sistemine benzetilebilir çünkü HC-SR04'te sesin yansıyıp geri dönme süresini ölçerek belli bir denklemle yapılır</p>
-            <img src="baglantisema/hcsr04.png" alt="hcsr04" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/hcsr04.png" alt="hcsr04" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -579,7 +579,7 @@ void loop()
             <h3>JOYSTİCK VE SERVO</h3>
             <p>Joystick ve serovda joystickden gelen x y konumlsrına göre 2 servo hareket edecek.Servo dereceli motor gibi düşünebilirsiniz fakat bazı servolar sürekli bir yönde döner o nedenle sahip olduğunuz servonun projeye uygun olup olmadığına dikkat edin</p>
             <b>Burada Servo.h kütüphanesi kullanılacak</b>
-            <img src="https://www.omerfarukyildiz.com/wp-content/uploads/2021/02/joystick-devre-proje-2-sema-ANA-1024x653.png" alt="servo joystick" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://www.omerfarukyildiz.com/wp-content/uploads/2021/02/joystick-devre-proje-2-sema-ANA-1024x653.png" alt="servo joystick" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -622,7 +622,7 @@ servoxdeger.write(deger4);
         <div id="IRSensör">
             <h3>IR SENSÖR</h3>
             <p>Ir sensör kızılötesi ışık algılayan sensördür burada kullanılan kütüphane son model değil 1.0.0 IRREMOTE kütüphanesi olacaktır.Bu projede kızıl ötesi kumandadan değer okunacak</p>
-            <img src="baglantisema/ir.png" alt="ir" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/ir.png" alt="ir" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -652,7 +652,7 @@ void loop()
         <div id="pır">
             <h3>PIR sensörü</h3>
             <p>PIR sensörü hareket senssörüdür.Mesela tuvaletlerde otonom ışık bu hareket sensörlerinden gelen veriye göre harekete eder.</p>
-            <img src="baglantisema/pır.png" alt="pır" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/pır.png" alt="pır" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>Malzemeler:</p>
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
@@ -677,7 +677,7 @@ void loop()
         <div id="nem">
             <h3>Toprak nem sensörü</h3>
             <p>Toprak nem sensörü adı üstünde toprak nem sensörüdür.<b>burada yapılacak devre şemasında tek gösterilir ama iki farklı girişi vardır analog ve dijital olarak ürün 2 parça olabilir ama tinkercad sebebiyle ürün tek parça biz burada dijital sinyal kullandık</b></p>
-            <img src="baglantisema/nemi.png" alt="NEM" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/nemi.png" alt="NEM" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
                 <li>1 tane breadboard</li>
@@ -702,7 +702,7 @@ void loop()
         <div id="gaz_sensörü">
             <h3>Gaz sensörü</h3>
             <p>Gaz sensörü burada insan yararına zararlı gazları algılar</p>
-            <img src="https://maker.robotistan.com/wp-content/uploads/2019/06/gaz-1068x552.jpg" alt="gaz" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://maker.robotistan.com/wp-content/uploads/2019/06/gaz-1068x552.jpg" alt="gaz" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <ul class="malzeme">
                 <li>Bir Arduino,Deneyap,ESP32 modülü veya herhangi bir devre kartı</li>
                 <li>1 tane breadboard</li>
@@ -733,7 +733,7 @@ void loop() {
         <div id="hc05">
             <h3>Bluetooth</h3>
             <p>Burada Bluetooth sensörü HC-05  veya HC06 olması lazım birde kalibrasyonu yapılmış olması lazım.Bluettoh haberlşeme için bir uygulama indirin bluetooth modülüne bağlanın ve istenilen tuşları gidecek verileri girn ya da haberleşme alanına uygulamaya göre değişir</p>
-            <img src="https://www.arduinomedia.com/wp-content/uploads/2019/05/bluetooth-arduino-baglanti-pin-tablosu.jpg" alt="konfigurasyon" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://www.arduinomedia.com/wp-content/uploads/2019/05/bluetooth-arduino-baglanti-pin-tablosu.jpg" alt="konfigurasyon" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <pre class="koddur">
 #include &lt;SoftwareSerial.h&gt;
 SoftwareSerial BTSerial(10, 11); // TX | RX
@@ -756,7 +756,7 @@ if (Serial.available())
 BTSerial.write(Serial.read());
 }
 </pre>
-            <img src="https://www.arduinomedia.com/wp-content/uploads/2019/05/arduino-bluetooth-at-komutlari.jpg" alt="seri" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://www.arduinomedia.com/wp-content/uploads/2019/05/arduino-bluetooth-at-komutlari.jpg" alt="seri" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <p>
                 AT+NAME?: Bu komut ile modülün diğer cihazlarda görünen adını görüntüleyebiliriz. Standart olarak HC-05 gelecektir. <br />
                 AT+NAME=yeni_isim : Bu komut ile modülün ismini değiştirebiliyoruz. yeni_isim yazan yere istediğiniz bir isim belirleyebilirsiniz. Türkçe karakterler kullanmayınız.<br />
@@ -771,7 +771,7 @@ BTSerial.write(Serial.read());
                 AT+UART=9600,0,0 :Bu komut ile bluetooth modülün baunt rate ayarını değiştirebiliriz.
             </p>
             <p>Konfigurasyonu tamamladık şimdir bağlantı ve bluetooth'a geçiyoruz</p>
-            <img src="https://maker.robotistan.com/wp-content/uploads/2015/10/bluetooth-rgb_bb.png" alt="rgbblue" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="https://maker.robotistan.com/wp-content/uploads/2015/10/bluetooth-rgb_bb.png" alt="rgbblue" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <pre class="koddur">
 #include &lt;softwareserial.h&gt;
 int veri; //Bluetooth üzerinden okuduğumuz değişken.
@@ -811,12 +811,12 @@ void loop() {
         <div id="lcd">
             <h3>LCD EKRAN I2C</h3>
             <p>Ekrandır bu ekrana I2C olabilir bizi ikisinide yapacağız</p>
-            <img src="baglantisema/i.png" alt="lcd" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/i.png" alt="lcd" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <br />
 
             <b>VEYA</b>
             <br />
-            <img src="baglantisema/Epic Lahdi.png" alt="lcd" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;" />
+            <img src="baglantisema/Epic Lahdi.png" alt="lcd" class="container resim" style="display: flex; justify-content: center; align-items: center; max-width: 100%;height:500px;" />
             <br />
             <b>I2C</b>
             <pre class="koddur">
